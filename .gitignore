@@ -1,0 +1,50 @@
+# 构建目录（你提到的 build/ 和 x64/）
+build/
+x64/
+
+# 编译产物（跨平台）
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+
+# Qt 自动生成文件
+*.moc
+*.qrc.dep
+*.autosave
+
+# Visual Studio 工程文件（已弃用）
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+
+# VSCode 缓存
+.vscode/ipch/
+*.code-workspace
+
+# IDE 配置（JetBrains、QtCreator 等）
+.idea/
+*.user
+*.pro.user
+
+# 日志和临时文件
+*.log
+*.tmp
+*.bak
+*.cache
+
+# CMake 缓存和生成文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Qt Creator 构建目录（如果你曾用过）
+*.qmlc
+*.jsc
+*.qmake.stash
+*.qmake.cache

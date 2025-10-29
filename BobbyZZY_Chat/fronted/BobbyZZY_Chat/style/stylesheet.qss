@@ -1,0 +1,67 @@
+QDialog#LoginDialog,#RegisterDialog{
+   background-color: rgb(255,255,255);
+}
+
+#user_label, #pass_label{
+    color:black;
+}
+
+#err_tip[state='normal']{
+    color: green;
+}
+
+#err_tip[state='error']{
+    color: red;
+}
+
+QToolButton#passwd_visible_btn,
+QToolButton#confirm_visible_btn {
+    border: none;
+    background-color: transparent;
+    image: url(":/res/unvisible.png");
+}
+
+QToolButton#passwd_visible_btn:hover,
+QToolButton#confirm_visible_btn:hover {
+    image: url(":/res/unvisible_hover.png");
+}
+
+QToolButton#passwd_visible_btn:checked,
+QToolButton#confirm_visible_btn:checked {
+    image: url(":/res/visible.png");
+}
+
+QToolButton#passwd_visible_btn:checked:hover,
+QToolButton#confirm_visible_btn:checked:hover {
+    image: url(":/res/visible_hover.png");
+}
+
+QToolButton#forget_button:hover{
+    border: none;
+    color: rgb(42,112,241);
+}
+
+QToolButton#forget_button{
+    border: none;
+}
+
+#side_bar{
+  background-color:rgb(46,46,46);
+}
+
+QToolButton#add_btn {
+    qproperty-cursor: PointingHandCursor;
+    border: none;
+    background-color: transparent;
+    image: url(":/res/add_friend_normal.png");
+}
+
+QToolButton#add_btn:hover {
+    image: url(":/res/add_friend_hover.png");
+}
+
+
+QToolButton#add_btn:pressed {
+    image: url(":/res/add_friend.png");
+}
+
